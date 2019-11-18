@@ -1,0 +1,214 @@
+header .header_menu{
+    width: 100%;
+    background-color: #343A40;
+    color: #FFF;
+    display: flex;
+}
+
+header .header_menu h1{
+    flex-basis: 500px;
+    padding: 20px;
+    font-size: 1.5em;
+    margin-left: 5%;
+}
+
+header .header_menu h1 a{
+    color: #FFF;
+}
+
+header .header_menu nav{
+    flex-basis: calc(100% - 500px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .header_menu nav ul{
+    display: flex;
+    align-items: stretch;
+}
+
+header .header_menu nav ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header .header_menu nav ul li a{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #FFF;
+    font-weight: bold;
+}
+
+header .header_menu nav ul li a:hover{
+    color: #1ABC9C;
+}
+
+main .home{
+    width: 100%;
+    background-color: #1ABC9C;
+}
+
+.art_home header{
+    color: #FFF;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.art_home header img{
+    width: 250px;
+}
+
+.art_home h2{
+    color: #FFF;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main .skill{
+    width: 100%;
+    background-color: #FFF;
+}
+
+.skill header{
+    color: #2C3E50;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.skill_img{
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill_img > article{
+    flex-basis: calc(30% - 40px);
+    margin-bottom: 20px;
+}
+
+.skill_img article img{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.about{
+    width: 100%;
+    background-color: #1ABC9C;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about header{
+    flex-basis: 100%;
+    color: #FFF;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.about > article{
+    flex-basis: calc(48%);
+    padding: 20px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0 auto;
+    background-color: #2C3E50;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.about article a{
+    color: #FFF;
+}
+
+.about article a:hover{
+    text-decoration: underline;
+}
+
+.contact header{
+    color: #2C3E50;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.contact_article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact_article article{
+    background-color: #1ABC9C;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin: 10px auto;
+    font-size: 1.2em;
+    /* flex-basis: calc(45% - 20px); */
+    flex-basis: calc(30% -20px);
+    margin-bottom: 40px;
+}
+
+.contact_article article a p{
+    text-align: center;
+}
+
+.contact_article article a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact_article article:hover{
+    background-color: #2C3E50;
+    font-weight: bold;
+}
+
+.whatsapp{
+    width: 100%;
+    background-color: #2C3E50;
+    color: #FFF;
+    text-align: center;
+    padding: 40px;
+}
+
+.whatsapp header h1{
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.whatsapp article a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.whatsapp article a:hover{
+    color: #1ABC9C;
+    text-decoration: underline;
+}
+
+.copyright{
+    width: 100%;
+    background-color: #1A252F;
+    color: #FFF;
+    text-align: center;
+    font-size: 0.7em;
+    padding: 20px;
+    font-weight: bold;
+}
