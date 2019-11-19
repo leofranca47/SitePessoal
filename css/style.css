@@ -1,3 +1,4 @@
+/* menu */
 header .header_menu{
     width: 100%;
     background-color: #343A40;
@@ -45,7 +46,68 @@ header .header_menu nav ul li a{
 header .header_menu nav ul li a:hover{
     color: #1ABC9C;
 }
+/* fim menu */
 
+/* menu  mobile*/
+.main_header_content_menu_mobile{
+    flex-basis: calc(100% - 330px);
+    display: none !important;
+    justify-content: flex-end;
+}
+
+.main_header_content_menu_mobile ul{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.main_header_content_menu_mobile ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+.main_header_content_menu_mobile_obj{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #FFF;
+    border-radius: 4px 4px 0 0;
+}
+
+.main_header_content_menu_mobile_obj:hover, .main_header_content_menu_mobile_obj_active{
+    color: #1ABC9C;
+}
+
+.main_header_content_menu_mobile_sub{
+    min-width: 200px;
+    background-color: #343A40;
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 100%;
+    right: -20px;
+}
+
+.main_header_content_menu_mobile_sub > li{
+    flex-basis: 100%;
+}
+
+.main_header_content_menu_mobile_sub > li a{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main_header_content_menu_mobile_sub > li a:hover{
+    background-color: #FFF;
+}
+/* fim menu mobile */
+
+/* home */
 main .home{
     width: 100%;
     background-color: #1ABC9C;
@@ -68,43 +130,48 @@ main .home{
     color: #FFF;
     font-size: 1.2em;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
+/* fim home */
 
+/* skill */
 main .skill{
     width: 100%;
     background-color: #FFF;
+    padding-top: 40px;
 }
 
 .skill header{
     color: #2C3E50;
     text-align: center;
     font-size: 3em;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .skill_img{
-    width: 100%;
-    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .skill_img > article{
-    flex-basis: calc(30% - 40px);
-    margin-bottom: 20px;
+    flex-basis: calc(35% - 80px);
+    align-items: center;
+    margin-bottom: 40px;
 }
 
 .skill_img article img{
     width: 400px;
     border-radius: 5px;
 }
+/* fim skill */
 
+/* about */
 .about{
     width: 100%;
+    padding: 40px;
     background-color: #1ABC9C;
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +183,6 @@ main .skill{
     color: #FFF;
     font-size: 3em;
     text-align: center;
-    padding-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -138,7 +204,9 @@ main .skill{
 .about article a:hover{
     text-decoration: underline;
 }
+/* fim about */
 
+/* contact */
 .contact header{
     color: #2C3E50;
     text-align: center;
@@ -179,7 +247,9 @@ main .skill{
     background-color: #2C3E50;
     font-weight: bold;
 }
+/* fim contact */
 
+/* whatsapp */
 .whatsapp{
     width: 100%;
     background-color: #2C3E50;
@@ -202,7 +272,9 @@ main .skill{
     color: #1ABC9C;
     text-decoration: underline;
 }
+/* fim whatsapp */
 
+/* footer */
 .copyright{
     width: 100%;
     background-color: #1A252F;
@@ -211,4 +283,125 @@ main .skill{
     font-size: 0.7em;
     padding: 20px;
     font-weight: bold;
+}
+/* fim footer */
+
+
+/* Responsive */
+
+/* 1024px */
+@media(max-width:64em){
+   /* skill */
+   .skill_img > article{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+   .skill_img article img{
+        width: 250px;
+    }
+   /* fim skill */
+
+   /* contact */
+    .contact header{
+        font-size: 2em;
+        margin-top: 50px;
+    }
+
+    .contact_article article{
+        flex-basis: calc(50% - 20px);
+    }
+    /* fim contact */
+}
+
+/* 768px */
+@media(max-width: 49em){
+    /* menu */
+    .main_header_content_menu{
+        display: none !important;
+    }
+
+    .main_header_content_menu_mobile{
+        display: flex !important;
+    }
+    /* fim menu */
+
+    /* home */
+    .art_home header{
+        padding-top: 20px;
+        font-size: 2em;
+    }
+    
+    .art_home header img{
+        width: 200px;
+    }
+    
+    .art_home h2{
+        font-size: 1em;
+    }
+    /* fim home */
+
+    /* skill */
+    .skill header{
+        font-size: 2em;
+        padding-top: 20px;
+    }
+    
+    .skill_img{
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    
+    .skill_img > article{
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    
+    .skill_img article img{
+        width: 300px;
+        border-radius: 5px;
+    }
+    /* fim skil */
+
+    /* about */
+    .about header{
+        font-size: 2em;
+        text-align: center;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .about > article{
+        flex-basis: calc(98%);
+        padding: 20px;
+        color: #FFF;
+        font-weight: bold;
+        margin: 0 auto;
+        background-color: #2C3E50;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    /* fim about */
+
+    /* contact */
+    .contact header{
+        font-size: 2em;
+        margin-top: 50px;
+    }
+
+    .contact_article article{
+        flex-basis: calc(100% - 20px);
+    }
+    /* fim contact */
+
+    /* whatsapp */
+    .whatsapp header h1{
+        font-size: 1.2em;
+    }
+
+    .whatsapp article a{
+        font-size: 0.8em;
+    }
+    /* fim whatsapp */
 }
