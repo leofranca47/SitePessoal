@@ -44,7 +44,7 @@ header .header_menu nav ul li a{
 }
 
 header .header_menu nav ul li a:hover{
-    color: #1ABC9C;
+    color: #35ba9b;
 }
 /* fim menu */
 
@@ -77,7 +77,7 @@ header .header_menu nav ul li a:hover{
 }
 
 .main_header_content_menu_mobile_obj:hover, .main_header_content_menu_mobile_obj_active{
-    color: #1ABC9C;
+    color: #35ba9b;
 }
 
 .main_header_content_menu_mobile_sub{
@@ -110,7 +110,7 @@ header .header_menu nav ul li a:hover{
 /* home */
 main .home{
     width: 100%;
-    background-color: #1ABC9C;
+    background-color: #35ba9b;;
 }
 
 .art_home header{
@@ -172,7 +172,7 @@ main .skill{
 .about{
     width: 100%;
     padding: 40px;
-    background-color: #1ABC9C;
+    background-color: #35ba9b;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -223,7 +223,7 @@ main .skill{
 }
 
 .contact_article article{
-    background-color: #1ABC9C;
+    background-color: #35ba9b;
     color: #FFF;
     border-radius: 5px;
     padding: 10px 50px;
@@ -244,7 +244,7 @@ main .skill{
 }
 
 .contact_article article:hover{
-    background-color: #2C3E50;
+    background-color: #46ceac;
     font-weight: bold;
 }
 /* fim contact */
@@ -269,7 +269,7 @@ main .skill{
 }
 
 .whatsapp article a:hover{
-    color: #1ABC9C;
+    color: #35ba9b;
     text-decoration: underline;
 }
 /* fim whatsapp */
