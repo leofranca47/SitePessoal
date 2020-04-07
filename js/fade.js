@@ -13,27 +13,27 @@ $(function () {
         // verificando imagens do modal portifolio
         if($(this).attr("verify") === "loginEasy"){
             img.attr({
-                src: "img/potifolio/easy_caixa/loginG.PNG"
+                src: "img/potifolio/easy_caixa/login.png"
             });
         } else if($(this).attr("verify") === "inicialEasy"){
             img.attr({
-                src: "img/potifolio/easy_caixa/inicialG.PNG"
+                src: "img/potifolio/easy_caixa/inicialG.png"
             });
         }else if($(this).attr("verify") === "vendaEasy"){
             img.attr({
-                src: "img/potifolio/easy_caixa/vendaG.PNG"
+                src: "img/potifolio/easy_caixa/vendaG.png"
             });
         }else if($(this).attr("verify") === "sangriaEasy"){
             img.attr({
-                src: "img/potifolio/easy_caixa/sangriaG.PNG"
+                src: "img/potifolio/easy_caixa/sangriaG.png"
             });
         }else if($(this).attr("verify") === "relatorioEasy"){
             img.attr({
-                src: "img/potifolio/easy_caixa/relátoriosG.PNG"
+                src: "img/potifolio/easy_caixa/relátoriosG.png"
             });
         }else if($(this).attr("verify") === "graficoEasy"){
             img.attr({
-                src: "img/potifolio/easy_caixa/graficosG.PNG"
+                src: "img/potifolio/easy_caixa/graficosG.png"
             });
         }else if($(this).attr("verify") === "usuarioJiu"){
             img.attr({

@@ -486,3 +486,10 @@ main .portifolio{
         width: 320px;
     }
 }
+
+/* 400px */
+@media(max-width: 25em){
+    header .header_menu h1{
+        font-size: 0.94em;
+    }
+}
