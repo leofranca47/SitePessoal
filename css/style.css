@@ -206,12 +206,67 @@ main .skill{
 }
 /* fim about */
 
-/* contact */
-.contact header{
+/* portifolio */
+main .portifolio{
+    width: 100%;
+    background-color: #FFF;
+    padding-top: 40px;
+}
+
+.portifolio header{
     color: #2C3E50;
     text-align: center;
     font-size: 3em;
-    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.portifolio article p{
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 80px;
+    font-weight: bold;
+    color: #2C3E50;
+}
+
+.portifolio h2{
+    background-color: #35ba9b;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.portifolio-img{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.portifolio-img > article{
+    flex-basis: calc(35% - 80px);
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.portifolio-img article img{
+    width: 400px;
+    border-radius: 5px;
+}
+
+/* fim portifolio */
+
+/* contact */
+.contact{
+    background-color: #35ba9b;
+}
+.contact header{
+    color: #FFF;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 
@@ -223,7 +278,7 @@ main .skill{
 }
 
 .contact_article article{
-    background-color: #35ba9b;
+    background-color: #2C3E50;
     color: #FFF;
     border-radius: 5px;
     padding: 10px 50px;
@@ -244,7 +299,7 @@ main .skill{
 }
 
 .contact_article article:hover{
-    background-color: #46ceac;
+    background-color: #1A252F;
     font-weight: bold;
 }
 /* fim contact */
@@ -384,6 +439,25 @@ main .skill{
     
     /* fim about */
 
+    /* portifolio */
+    .portifolio header{
+        font-size: 2em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .portifolio article p{
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+
+    .portifolio h2{
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    /* fim portifolio */
+
     /* contact */
     .contact header{
         font-size: 2em;
@@ -404,4 +478,11 @@ main .skill{
         font-size: 0.8em;
     }
     /* fim whatsapp */
+}
+
+/* 600px */
+@media(max-width: 40em){
+    .portifolio-img article img{
+        width: 320px;
+    }
 }

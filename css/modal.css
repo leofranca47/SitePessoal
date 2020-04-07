@@ -1,0 +1,58 @@
+.fade{
+    /* display: flex; */
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+}
+
+.fade_box{
+    width: 840px;
+    background: #fff;
+    max-width: 96%;
+    padding: 20px;
+    margin: auto;
+}
+
+.fade_box img{
+    width: 800px;
+}
+
+.fade_close{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #eee;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fade_close:hover{
+    color: #bf7676;
+}
+
+/* 768px */
+@media(max-width: 49em){
+    .fade_box{
+        width: 640px;
+    }
+
+    .fade_box img{
+        width: 600px;
+    }
+}
+
+/* 600px */
+@media(max-width: 40em){
+    .fade_box{
+        width: 340px;
+    }
+
+    .fade_box img{
+        width: 300px;
+    }
+}

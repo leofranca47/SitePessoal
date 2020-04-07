@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="css/fonticon.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/boot.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+
     <title>Leonardo G. França</title>
 </head>
 <body>
@@ -27,6 +28,9 @@
                         <a href="#about">SOBRE</a>
                     </li>
                     <li>
+                        <a href="#portifolio">PORTIFÓLIO</a>
+                    </li>
+                    <li>
                         <a href="#contact">CONTATO</a>
                     </li>
                 </ul>
@@ -41,6 +45,9 @@
                             </li>
                             <li>
                                 <a href="#about">SOBRE</a>
+                            </li>
+                            <li>
+                                <a href="#portifolio">PORTIFÓLIO</a>
                             </li>
                             <li>
                                 <a href="#contact">CONTATO</a>
@@ -110,6 +117,108 @@
 
         </section>
 
+        <section class="portifolio" id="portifolio">
+            <header>
+                <h1>PORTIFÓLIO</h1>
+                <p class="icon-github"></p>
+            </header>
+            <article>
+                <p>Conheça alguns dos meus trabalhos</p>
+            </article>
+            <h2>EASY CAIXA</h2>
+            <div class="portifolio-img">
+                <article>
+                    <a class="button" verify="loginEasy">
+                        <img src="img/potifolio/easy_caixa/login.PNG" alt="Tela de login" title="Tela de login">
+                    </a>
+                    
+                </article>
+                <article>
+                    <a class="button" verify="inicialEasy">
+                        <img src="img/potifolio/easy_caixa/inicial.PNG" alt="Tela inicial" title="Tela inicial">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="vendaEasy">
+                        <img src="img/potifolio/easy_caixa/venda.PNG" alt="Tela de venda" title="Tela de venda">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="sangriaEasy">
+                        <img src="img/potifolio/easy_caixa/sangria.PNG" alt="Tela de sangria" title="Tela de sangria">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="relatorioEasy">
+                        <img src="img/potifolio/easy_caixa/relatorios.PNG" alt="Tela de relátorios" title="Tela de relátorios">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="graficoEasy">
+                        <img src="img/potifolio/easy_caixa/graficos.PNG" alt="Tela de relátorios" title="Tela de relátorios">
+                    </a>
+                </article>
+            </div>
+
+            <h2>PLACAR JIU JITSU</h2>
+            <div class="portifolio-img">
+                <article>
+                    <a class="button" verify="usuarioJiu">
+                        <img src="img/potifolio/placar-jiujtsu/usuarios.jpeg" alt="Tela de controle do placar" title="Tela de controle do placar">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="lutadorJiu">
+                        <img src="img/potifolio/placar-jiujtsu/tela-lutadores.jpeg" alt="Tela de visão dos lutadores e juízes" title="Tela de visão dos lutadores e juízes">
+                    </a>
+                </article>
+            </div>
+
+            <h2>LOJA VIRTUAL</h2>
+            <div class="portifolio-img">
+                <article>
+                    <a class="button" verify="inicialLj">
+                        <img src="img/potifolio/loja-virutal/inicialP.png" alt="Tela principal do site" title="Tela principal do site">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="produtosLj">
+                        <img src="img/potifolio/loja-virutal/produtosP.png" alt="Tela de visão dos produtos" title="Tela de visão dos produtos">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="produtoLj">
+                        <img src="img/potifolio/loja-virutal/produtoP.png" alt="Tela de descrição do produto" title="Tela de descrição do produto">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="carrinhoLj">
+                        <img src="img/potifolio/loja-virutal/carrinhoP.png" alt="Tela do carrinho de compras" title="Tela do carrinho de compras">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="loginLj">
+                        <img src="img/potifolio/loja-virutal/loginP.png" alt="Tela de login" title="Tela de login">
+                    </a>
+                </article>
+                <article>
+                    <a class="button" verify="entregaLj">
+                        <img src="img/potifolio/loja-virutal/entregaP.png" alt="Tela de casdastro de entrega" title="Tela de casdastro de entrega">
+                    </a>
+                </article>
+            </div>
+            <h2>Este site também faz parte dos meus projetos, 
+                foi desenvolvido com HTML5, CSS3 e JQUERY. <br>Para mais projetos acesse meu GITHUB, Links abaixo :)</h2>
+
+            <!-- modal -->
+            <div class="fade">
+                <div class="fade_box">
+                    <img id="images">
+                    <span class="fade_close">X</span>
+                </div>
+            </div>
+        </section>
+
         <section class="contact" id="contact">
             <header>
                 <h1>Links para Contato</h1>
@@ -151,7 +260,9 @@
 
     </footer>
 
+    
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/fade.js"></script>
 </body>
 </html>
